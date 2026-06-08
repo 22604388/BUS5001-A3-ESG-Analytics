@@ -1,0 +1,44 @@
+[
+  {
+    "message": "There is a water leak in Building C that has been running all morning.",
+    "model": "claude-sonnet-4-20250514",
+    "output": {
+      "issue_category": "FACILITIES",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities Management",
+      "escalation_reason": "Active water leak represents ongoing resource waste and potential structural or slip hazard; same-day physical inspection and repair required",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "An employee reports a continuous water leak in Building C that has been running since at least that morning and requires urgent facilities intervention."
+    }
+  },
+  {
+    "message": "The recycling bins on Level 3 are contaminated again and no one seems to be checking them.",
+    "model": "claude-sonnet-4-20250514",
+    "output": {
+      "issue_category": "WASTE_MANAGEMENT",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Sustainability Team",
+      "escalation_reason": "Recurring contamination indicates a systemic oversight failure rather than a one-off incident; requires staff communication and a waste audit within 48 hours",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "An employee reports repeated recycling bin contamination on Level 3 with no apparent monitoring or corrective action in place."
+    }
+  },
+  {
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy requirements.",
+    "model": "claude-sonnet-4-20250514",
+    "output": {
+      "issue_category": "PROCUREMENT",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Procurement / Sustainability Compliance",
+      "escalation_reason": "Potential supplier non-compliance with sustainability policy carries reputational and regulatory risk; requires formal review within 48 hours",
+      "data_sensitivity_risk": "MEDIUM",
+      "brief_summary": "An employee flags a concern that a supplier may be failing to meet the organisation's sustainability policy standards and requests a formal review."
+    }
+  }
+]
